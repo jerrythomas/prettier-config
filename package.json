@@ -1,0 +1,20 @@
+{
+  "name": "@jerrythomas/prettier-config",
+  "version": "1.0.0-next.0",
+  "description": "Prettier config for JavaScript & Svelte",
+  "main": "index.json",
+  "license": "MIT",
+  "keywords": [
+    "prettier",
+    "config",
+    "javascript",
+    "svelte",
+    "markdown",
+    "YAML",
+    "SQL"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "git@github.com:jerrythomas/prettier-config.git"
+}
