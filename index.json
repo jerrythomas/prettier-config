@@ -1,21 +1,24 @@
 {
   "$schema": "http://json.schemastore.org/prettierrc",
   "tabWidth": 2,
-  "useTabs": true,
+  "useTabs": false,
   "semi": false,
   "singleQuote": true,
   "trailingComma": "none",
+  "plugins": ["prettier-plugin-svelte"],
   "overrides": [
     {
       "files": "*.svelte",
       "options": {
-        "svelteSortOrder": "options-scripts-markup-styles"
+        "useTabs": true,
+        "parser": "svelte",
+        "svelteSortOrder": "options-scripts-markup-styles" 
       }
     },
     {
-      "files": ["*.md", "*.yml", "*.yaml", "*.sql", "*.ddl"],
+      "files": ["*.js", "*.ts"],
       "options": {
-        "useTabs": false
+        "useTabs": true
       }
     }
   ]
