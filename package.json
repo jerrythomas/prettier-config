@@ -1,6 +1,6 @@
 {
   "name": "@jerrythomas/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prettier config for JavaScript & Svelte",
   "main": "index.json",
   "license": "MIT",
@@ -16,5 +16,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "git@github.com:jerrythomas/prettier-config.git"
+  "repository": "git@github.com:jerrythomas/prettier-config.git",
+  "dependencies": {
+    "prettier-plugin-svelte": "^3.1.2"
+  }
 }
